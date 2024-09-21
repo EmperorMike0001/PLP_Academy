@@ -1,0 +1,16 @@
+-- Run the code below once  
+-- USE hospital;  
+
+-- * means Select ALL from Patients
+-- SELECT * FROM patients; 
+
+-- Select only first name and last name
+-- SELECT  last_name,first_name
+-- FROM patients; -- Retrieve all patient names 
+
+-- Retrieve all patient from 1970 
+-- SELECT * 
+-- FROM patients 
+-- WHERE date_of_birth >= '1970-01-01'
+-- ORDER BY date_of_birth ASC;
+
