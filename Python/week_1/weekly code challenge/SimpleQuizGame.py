@@ -50,7 +50,7 @@ questions =[
     
 ]
 
-def run_quiz(questions):
+def SimpleQuizGame(questions):
     score = 0
 
     for i, q in enumerate(questions, 1):
@@ -67,4 +67,4 @@ def run_quiz(questions):
     
     print(f"\nYou scored {score} out of {len(questions)}.")
 
-run_quiz(questions)
+SimpleQuizGame(questions)
