@@ -67,4 +67,8 @@ def SimpleQuizGame(questions):
     
     print(f"\nYou scored {score} out of {len(questions)}.")
 
+<<<<<<< HEAD
 SimpleQuizGame(questions)
+=======
+SimpleQuizGame(questions)
+>>>>>>> 9e9dd6bd5e58bbe44e19728bfd243d037c3b0da1
